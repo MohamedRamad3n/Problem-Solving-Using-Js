@@ -13,7 +13,7 @@ function toSquareRoot(Array) {
                newArray.push(Array[i] * Array[i])
            }
        }
-       return newArray; */
+       return newArray; */ty
 
     //solution2
     return Array.map((number) =>

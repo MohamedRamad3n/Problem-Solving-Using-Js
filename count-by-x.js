@@ -5,13 +5,14 @@ Assume both the given number and the number of times to count will be positive n
 Return the results as an array or list ( depending on language ). */
 
 function countBy(x, n) {
+    //solution 1 using for loop
     /* let newArray = []
-    for (let i = 1; i <= n; i++) {
-        newArray.push(i * x)
-    }
-    return newArray */
+        for (let i = 1; i <= n; i++) {
+            newArray.push(i * x)
+        }
+        return newArray */
+
     //another solution
     return [...Array(n)].map((_, indx) => ++indx * x);
-
 }
-console.log(countBy(2, 5));
+console.log(countBy(1, 10));

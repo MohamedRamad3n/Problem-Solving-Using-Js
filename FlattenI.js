@@ -12,7 +12,7 @@ function flattenArray(value) {
             result.push(item)
         }
     }
-    Flatten(value)
+    Flatten(value) 
     return result;
 }
 

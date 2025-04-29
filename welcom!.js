@@ -28,3 +28,11 @@ function greet(language) {
 }
 
 console.log(greet("english")); // 'Welcome';
+
+
+
+let url = "employeeDetails?name=john&occupation=manager"
+let encoded_url = encodeURI(url);
+let decoded_uri = decodeURI(url);
+console.log(encoded_url);
+console.log(decoded_uri);
